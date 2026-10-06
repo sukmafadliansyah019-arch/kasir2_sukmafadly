@@ -37,7 +37,7 @@ return [
     |
     */
 
-    'title' => 'AdminLTE 4',
+    'title' => 'kasir2_sukmafadly',
     'title_prefix' => '',
     'title_postfix' => '',
 
@@ -77,8 +77,8 @@ return [
     |
     */
 
-    'logo' => '<b>Admin</b>LTE',
-    'logo_img' => 'vendor/adminlte/dist/assets/img/AdminLTELogo.png',
+    'logo' => '<b>kasir2_sukmafadly</b>',
+    'logo_img' => 'vendor/adminlte/dist/assets/img/logoaw.png',
     'logo_img_class' => 'brand-image opacity-75 shadow',
     'logo_img_xl' => null,
     'logo_img_xl_class' => 'brand-image-xs opacity-75',
@@ -100,7 +100,7 @@ return [
     'auth_logo' => [
         'enabled' => false,
         'img' => [
-            'path' => 'vendor/adminlte/dist/assets/img/AdminLTELogo.png',
+            'path' => 'vendor/adminlte/dist/assets/img/logoaw.png',
             'alt' => 'Auth Logo',
             'class' => '',
             'width' => 50,
@@ -136,7 +136,7 @@ return [
         'enabled' => true,
         'mode' => 'fullscreen',
         'img' => [
-            'path' => 'vendor/adminlte/dist/assets/img/AdminLTELogo.png',
+            'path' => 'vendor/adminlte/dist/assets/img/logoaw.png',
             'alt' => 'AdminLTE Preloader Image',
             'effect' => 'animation__shake',
             'width' => 60,
@@ -790,77 +790,26 @@ return [
             'can' => 'manage-blog',
         ],
         [
-            'text' => 'pages',
+            'text' => 'Dashboard',
             'url' => 'admin/pages',
             'icon' => 'bi bi-file-earmark',
-            'label' => 4,
             'label_color' => 'success',
         ],
-        ['header' => 'account_settings'],
         [
-            'text' => 'profile',
-            'url' => 'admin/settings',
-            'icon' => 'bi bi-person',
-        ],
-        [
-            'text' => 'change_password',
-            'url' => 'admin/settings',
-            'icon' => 'bi bi-lock',
-        ],
-        [
-            'text' => 'multilevel',
+            'text' => 'Data Master',
             'icon' => 'bi bi-share',
             'submenu' => [
                 [
-                    'text' => 'level_one',
+                    'text' => 'Data siswa',
                     'url' => '#',
                 ],
                 [
-                    'text' => 'level_one',
-                    'url' => '#',
-                    'submenu' => [
-                        [
-                            'text' => 'level_two',
-                            'url' => '#',
-                        ],
-                        [
-                            'text' => 'level_two',
-                            'url' => '#',
-                            'submenu' => [
-                                [
-                                    'text' => 'level_three',
-                                    'url' => '#',
-                                ],
-                                [
-                                    'text' => 'level_three',
-                                    'url' => '#',
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'text' => 'level_one',
+                    'text' => 'Data Guru',
                     'url' => '#',
                 ],
             ],
         ],
-        ['header' => 'labels'],
-        [
-            'text' => 'important',
-            'icon_color' => 'danger',
-            'url' => '#',
-        ],
-        [
-            'text' => 'warning',
-            'icon_color' => 'warning',
-            'url' => '#',
-        ],
-        [
-            'text' => 'information',
-            'icon_color' => 'info',
-            'url' => '#',
-        ],
+       
     ],
 
     /*
